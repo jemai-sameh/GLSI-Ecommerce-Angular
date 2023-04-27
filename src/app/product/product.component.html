@@ -1,0 +1,13 @@
+<p>product Details !</p>
+<ul>
+    <li>id : {{product.id}} </li>
+    <li>title : {{product.title}} </li>
+    <li>price : {{product.price}} </li>
+    <li>quantity : {{product.quantity}} </li>
+    <li>like : {{product.like}} </li>
+
+
+</ul>
+
+<button [disabled]="product.quantity==0" (click)="buy()">Buy</button>
+<button (click)="like()">Like (y)</button>

@@ -1,6 +1,5 @@
-import { Component, Input,Output, OnInit } from '@angular/core';
+import { Component,EventEmitter, Input,Output, OnInit } from '@angular/core';
 import { Product } from '../Models/Product';
-import { EventEmitter } from 'stream';
 
 
 @Component({
